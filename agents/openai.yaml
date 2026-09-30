@@ -1,0 +1,7 @@
+interface:
+  display_name: "职业机会审查师"
+  short_description: "审查岗位申请价值、职业方向匹配与结构性风险，并列出面试核实问题"
+  default_prompt: "使用 $career-opportunity-audit 审查这份岗位是否值得申请，并列出最需要核实的问题。"
+
+policy:
+  allow_implicit_invocation: true
